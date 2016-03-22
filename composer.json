@@ -1,0 +1,12 @@
+{
+    "name": "ramracing/aws-sdk-php-pimple",
+    "require": {
+        "pimple/pimple": "^3.0",
+        "aws/aws-sdk-php": "^3.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "RamRacing\\Pimple\\": "src/"
+        }
+    }
+}
